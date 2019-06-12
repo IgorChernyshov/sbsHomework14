@@ -7,25 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C1D126122AE18070015366E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1D126022AE18070015366E /* MainViewController.m */; };
+		9C1D128722B0D9F80015366E /* GameResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1D128622B0D9F80015366E /* GameResultsViewController.m */; };
 		9C22DE4122AADE02005557F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C22DE4022AADE02005557F1 /* AppDelegate.m */; };
-		9C22DE4422AADE02005557F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C22DE4322AADE02005557F1 /* ViewController.m */; };
-		9C22DE4722AADE02005557F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C22DE4522AADE02005557F1 /* Main.storyboard */; };
 		9C22DE4922AADE03005557F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C22DE4822AADE03005557F1 /* Assets.xcassets */; };
 		9C22DE4C22AADE03005557F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C22DE4A22AADE03005557F1 /* LaunchScreen.storyboard */; };
 		9C22DE4F22AADE03005557F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C22DE4E22AADE03005557F1 /* main.m */; };
+		9C22DE5722AADF18005557F1 /* AnswersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C22DE5622AADF18005557F1 /* AnswersViewController.m */; };
+		9C22DE5A22AADF45005557F1 /* QuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C22DE5922AADF45005557F1 /* QuestionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9C1D125F22AE18070015366E /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		9C1D126022AE18070015366E /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		9C1D128422AFF5460015366E /* GameProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameProtocol.h; sourceTree = "<group>"; };
+		9C1D128522B0D9F80015366E /* GameResultsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameResultsViewController.h; sourceTree = "<group>"; };
+		9C1D128622B0D9F80015366E /* GameResultsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameResultsViewController.m; sourceTree = "<group>"; };
 		9C22DE3C22AADE02005557F1 /* sbsHomework14.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sbsHomework14.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C22DE3F22AADE02005557F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9C22DE4022AADE02005557F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9C22DE4222AADE02005557F1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9C22DE4322AADE02005557F1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		9C22DE4622AADE02005557F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9C22DE4822AADE03005557F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C22DE4B22AADE03005557F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C22DE4D22AADE03005557F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C22DE4E22AADE03005557F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9C22DE5522AADF18005557F1 /* AnswersViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnswersViewController.h; sourceTree = "<group>"; };
+		9C22DE5622AADF18005557F1 /* AnswersViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnswersViewController.m; sourceTree = "<group>"; };
+		9C22DE5822AADF45005557F1 /* QuestionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuestionViewController.h; sourceTree = "<group>"; };
+		9C22DE5922AADF45005557F1 /* QuestionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuestionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,15 +66,21 @@
 		9C22DE3E22AADE02005557F1 /* sbsHomework14 */ = {
 			isa = PBXGroup;
 			children = (
+				9C22DE5522AADF18005557F1 /* AnswersViewController.h */,
+				9C22DE5622AADF18005557F1 /* AnswersViewController.m */,
 				9C22DE3F22AADE02005557F1 /* AppDelegate.h */,
 				9C22DE4022AADE02005557F1 /* AppDelegate.m */,
-				9C22DE4222AADE02005557F1 /* ViewController.h */,
-				9C22DE4322AADE02005557F1 /* ViewController.m */,
-				9C22DE4522AADE02005557F1 /* Main.storyboard */,
 				9C22DE4822AADE03005557F1 /* Assets.xcassets */,
-				9C22DE4A22AADE03005557F1 /* LaunchScreen.storyboard */,
+				9C1D128422AFF5460015366E /* GameProtocol.h */,
+				9C1D128522B0D9F80015366E /* GameResultsViewController.h */,
+				9C1D128622B0D9F80015366E /* GameResultsViewController.m */,
 				9C22DE4D22AADE03005557F1 /* Info.plist */,
+				9C22DE4A22AADE03005557F1 /* LaunchScreen.storyboard */,
 				9C22DE4E22AADE03005557F1 /* main.m */,
+				9C1D125F22AE18070015366E /* MainViewController.h */,
+				9C1D126022AE18070015366E /* MainViewController.m */,
+				9C22DE5822AADF45005557F1 /* QuestionViewController.h */,
+				9C22DE5922AADF45005557F1 /* QuestionViewController.m */,
 			);
 			path = sbsHomework14;
 			sourceTree = "<group>";
@@ -130,7 +144,6 @@
 			files = (
 				9C22DE4C22AADE03005557F1 /* LaunchScreen.storyboard in Resources */,
 				9C22DE4922AADE03005557F1 /* Assets.xcassets in Resources */,
-				9C22DE4722AADE02005557F1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,23 +154,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C22DE4422AADE02005557F1 /* ViewController.m in Sources */,
+				9C22DE5722AADF18005557F1 /* AnswersViewController.m in Sources */,
+				9C1D128722B0D9F80015366E /* GameResultsViewController.m in Sources */,
 				9C22DE4F22AADE03005557F1 /* main.m in Sources */,
 				9C22DE4122AADE02005557F1 /* AppDelegate.m in Sources */,
+				9C1D126122AE18070015366E /* MainViewController.m in Sources */,
+				9C22DE5A22AADF45005557F1 /* QuestionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9C22DE4522AADE02005557F1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9C22DE4622AADE02005557F1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9C22DE4A22AADE03005557F1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
