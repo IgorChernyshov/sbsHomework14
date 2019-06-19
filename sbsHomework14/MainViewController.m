@@ -83,7 +83,7 @@
 
 #pragma mark - QuestionsOutputProtocol
 
-- (void)isAnswerCorrect:(BOOL)correct;
+- (void)isAnswerCorrect:(BOOL)correct
 {
 	if (correct)
 	{
